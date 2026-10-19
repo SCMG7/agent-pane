@@ -1,0 +1,31 @@
+{
+  "name": "agent-pane",
+  "version": "0.2.0",
+  "description": "An IDE-style side pane for Claude Code: the agent's avatar and live activity, turn time with an estimate, context, usage, limits, the prompt-cache countdown and subagents, in collapsible sections.",
+  "author": { "name": "martyg" },
+  "keywords": ["mod", "pane", "agent", "status"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "glyphs": {
+      "type": "string",
+      "title": "Glyphs",
+      "description": "Icon set: auto uses Nerd Font icons when such a font is installed here; plain uses Unicode only.",
+      "default": "auto",
+      "options": ["auto", "nerd", "plain"]
+    },
+    "avatar": {
+      "type": "string",
+      "title": "Avatar",
+      "description": "on: the robot face draws at the top of the pane when there is room. off: a two-line head instead.",
+      "default": "on",
+      "options": ["on", "off"]
+    },
+    "start": {
+      "type": "string",
+      "title": "Open at start",
+      "description": "on: the pane opens when a session starts and seats itself at your first prompt. off: it stays closed until you run /agent-pane.",
+      "default": "on",
+      "options": ["on", "off"]
+    }
+  }
+}

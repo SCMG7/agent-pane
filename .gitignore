@@ -1,0 +1,7 @@
+# Written by the engine on load; not source.
+.claude-plugin/types/
+# Session state other tools leave behind.
+.omc/
+.mcpb-cache/
+.DS_Store
+*.log

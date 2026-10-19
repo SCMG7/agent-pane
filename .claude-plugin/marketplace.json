@@ -1,0 +1,6 @@
+{
+  "name": "agent-pane",
+  "description": "An IDE-style side pane for Claude Code: project, turn, context, usage, limits, subagents and a live tool feed.",
+  "owner": { "name": "martyg" },
+  "plugins": [{ "name": "agent-pane", "source": "./" }]
+}
